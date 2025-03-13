@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 500px;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    bottom: 50px; /*Adjust this value to move the box higher or lower */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 15px;
+    border-color: white;
+    color: white;
+  }
+
+  button.red {
+    background-color: red;
+  }
+  
+  button.black {
+    background-color: black;
+  }
+  
+  button.green {
+    background-color: green;
+  }
+  
+  button.blue {
+    background-color: blue;
+  }
+  
+  button.gray {
+    background-color: gray;
+  }
+  
+  button.yellow {
+    background-color: yellow;
+    color: black; /* Override text color for better contrast */
+  }
+  
+  button.orange {
+    background-color: orange;
+  }
